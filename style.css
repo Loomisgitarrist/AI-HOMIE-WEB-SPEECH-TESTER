@@ -95,3 +95,10 @@ button:disabled {
   font-size: 1.4rem;
   display: none;
 }
+/* For screens smaller than 768px (e.g. mobile devices) */
+@media screen and (max-width: 768px) {
+  /* Decrease the font size of every button and input */
+  button, input {
+    font-size: 12px;
+  }
+}
