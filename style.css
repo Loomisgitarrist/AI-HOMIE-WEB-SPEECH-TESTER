@@ -42,8 +42,9 @@ b {
 }
 h1 {
   color: var(--accentcolor);
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0;
+  text-align: center;
 }
 p {
   display: block;
